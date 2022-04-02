@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@committed/trie-search@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@committed/trie-search/-/trie-search-0.1.0.tgz#9632a0dcfd0beeb2bab95aaecf8acfe3589298ed"
+  integrity sha512-yUANhvnJxeMf9Gu/0zkCCmgjzLE6NgyNxeerShTSui0uzr1DsLmu0mWiZZZ2V06UqWja/O8TsfchV/81yuRmtw==
+  dependencies:
+    hasharray "^1.1.1"
+    lodash.get "^4.4.2"
+
 "@cspotcode/source-map-consumer@0.8.0":
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/@cspotcode/source-map-consumer/-/source-map-consumer-0.8.0.tgz#33bf4b7b39c178821606f669bbc447a6a629786b"
@@ -24,7 +32,7 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node12/-/node12-1.0.9.tgz#62c1f6dee2ebd9aead80dc3afa56810e58e1a04c"
   integrity sha512-/yBMcem+fbvhSREH+s14YJi18sp7J9jpuhYByADT2rypfajMZZN4WQ6zBGgBKp53NKmqI36wFYDb3yaMPurITw==
 
-"@tsconfig/node14@^1.0.0":
+"@tsconfig/node14@^1.0.0", "@tsconfig/node14@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@tsconfig/node14/-/node14-1.0.1.tgz#95f2d167ffb9b8d2068b0b235302fafd4df711f2"
   integrity sha512-509r2+yARFfHHE7T6Puu2jjkoycftovhXRqW328PDXTVGKihlb1P8Z9mMZH04ebyajfRY7dedfGynlrFHJUQCg==
@@ -67,6 +75,11 @@
     "@types/express-serve-static-core" "^4.17.18"
     "@types/qs" "*"
     "@types/serve-static" "*"
+
+"@types/lodash@^4.14.181":
+  version "4.14.181"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.181.tgz#d1d3740c379fda17ab175165ba04e2d03389385d"
+  integrity sha512-n3tyKthHJbkiWhDZs3DkhkCzt2MexYHXlX0td5iMplyfwketaOeKboEVBqzceH7juqvEg3q5oUoBFxSLu7zFag==
 
 "@types/mime@^1":
   version "1.3.2"
@@ -113,6 +126,11 @@ acorn@^8.4.1:
   version "8.7.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.7.0.tgz#90951fde0f8f09df93549481e5fc141445b791cf"
   integrity sha512-V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==
+
+an-array-of-english-words@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/an-array-of-english-words/-/an-array-of-english-words-2.0.0.tgz#2d9de64929b864f1eff5bd53dead275ff1ac0c32"
+  integrity sha512-FXnNvZSOI27kkKXeLSquhaTGP7z198UOQ4txaYO9fCfrjCh+D5SV7G7XqzEH0229+pAi4cjBEZ4WIQYgjKtO7Q==
 
 arg@^4.1.0:
   version "4.1.3"
@@ -273,6 +291,13 @@ fresh@0.5.2:
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
 
+hasharray@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/hasharray/-/hasharray-1.1.2.tgz#ba5aa8656d26af92c9e4525315b62b5f651039d3"
+  integrity sha512-7w3idwaVXX9gL9LiTCBSNKRGTBcp2WI/kf13UYeZ9+trOGBHVYHei6qtMY6DVnwGOouVUSRg0+L2xf4Q2/CmzA==
+  dependencies:
+    jclass "^1.0.1"
+
 http-errors@1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/http-errors/-/http-errors-1.8.1.tgz#7c3f28577cbc8a207388455dbd62295ed07bd68c"
@@ -300,6 +325,26 @@ ipaddr.js@1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
+
+jclass@^1.0.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/jclass/-/jclass-1.2.1.tgz#eaafeec0dd6a5bf8b3ea43c04e010c637638768b"
+  integrity sha1-6q/uwN1qW/iz6kPATgEMY3Y4dos=
+
+just-cartesian-product@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/just-cartesian-product/-/just-cartesian-product-4.0.2.tgz#e885d22c43e7bb4913bbe727ef07ce5c6cade05c"
+  integrity sha512-eo+A+I3CT0+yRDU7jYFUMRS9x8Nnbvza/xeppF+qhWK567ZWBnd6+TtRUvknoYf3dhD9SpkRV4kNXuSwV2U78A==
+
+lodash.get@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
+  integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
+
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 make-error@^1.1.1:
   version "1.3.6"
