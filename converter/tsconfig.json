@@ -1,15 +1,9 @@
 {
+  "extends": "@tsconfig/node14/tsconfig.json",
   "compilerOptions": {
-    "target": "es2016",
-    "lib": ["es2019"],
-    "module": "commonjs",
+
     "rootDir": "src",
     "outDir": "./bin",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitAny": true,
-    "skipLibCheck": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["./bin"]
