@@ -1,7 +1,5 @@
 # t9-converter
 
-This solution uses built-in array of English words (fastest + free solution). It could have used any external API (like https://www.wordsapi.com/) or built-in words database.
-
 ## Installation — MacOs
 
 1. Install `node`:
@@ -28,8 +26,23 @@ This solution uses built-in array of English words (fastest + free solution). It
 
 ## Run without Docker
 
-1. Build project and run:
+1. Run server, it will listen `8000` port:
 
    ```sh
+   cd converter
+   yarn dev
+   ```
+
+   or
+
+   ```sh
+   cd converter
    yarn build && yarn start
+   ```
+
+2. Run webapp, it will be available at `localhost:3000`:
+
+   ```sh
+   cd webapp
+   yarn start
    ```
