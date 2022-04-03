@@ -4,4 +4,18 @@ services:
     build:
       context: ./converter
     ports: 
-      - 8000:8000
+      - 127.0.0.1:8000:8000
+    networks:
+      - t9-converter
+
+  webapp:
+    build:
+      context: ./webapp
+    ports:
+      - 127.0.0.1:3000:80
+    networks:
+      - t9-converter
+
+networks:
+  t9-converter:
+    name: t9-converter
